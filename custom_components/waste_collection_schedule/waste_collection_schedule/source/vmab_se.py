@@ -20,21 +20,16 @@ from waste_collection_schedule import Collection  # type: ignore[attr-defined]
 # { title: 'Max 1, Fyrfackskärl', start: '2023-01-11' },
 # { title: 'Max 2, Fyrfackskärl', start: '2023-01-20' },
 #
-# The API will return about a years worth of bin collection dates
+# The API will return about 18 months worth of bin collection dates
 # and only the dates will change, title remains the same for the two
 # bins. First one being Food, Burnables, Colored glass and Newspapers,
 # and the second is Plastics, Cardboard, Non-colored glass and Metal.
-#
-# Different bins to include later on..
-# Karlshamns kommun: Rådhusgatan 10, Karlshamn
-# Folkets hus Olofström: Östra Storgatan 24, Folkets Hus Olofström
 #
 
 TITLE = "Västblekinge Miljö AB"
 DESCRIPTION = "Source for Västblekinge Miljö AB waste collection."
 URL = "https://vmab.se"
 TEST_CASES = {
-    "Home": {"street_address": "Gullregnsvägen 3, Mörrum"},
     "Olofström": {"street_address": "Parkvägen 1, Olofström"},
     "Asarum": {"street_address": "Parkvägen 10, Asarum"},
     "Mörrum": {"street_address": "Parkvägen 11, Mörrum"},
@@ -97,7 +92,3 @@ class Source:
             pickup_date = datetime.fromisoformat(json_entry['start']).date()
             entries.append(Collection(date=pickup_date, t=waste_type, icon=icon))
         return entries
-
-# if __name__ == "__main__":
-#     s = Source("Gullregnsvägen 3, Mörrum")
-#     lst = s.fetch()

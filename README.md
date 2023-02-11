@@ -129,6 +129,7 @@ Waste collection schedules in the following formats and countries are supported.
 - [C-Trace](/doc/source/c_trace_de.md) / c-trace.de
 - [Dillingen Saar](/doc/source/dillingen_saar_de.md) / dillingen-saar.de
 - [Dinslaken](/doc/source/abfallnavi_de.md) / dinslaken.de
+- [EAD Darmstadt](/doc/source/ead_darmstadt_de.md) / ead.darmstadt.de
 - [EGN Abfallkalender](/doc/source/egn_abfallkalender_de.md) / egn-abfallkalender.de
 - [EGW Westmünsterland](/doc/source/abfallnavi_de.md) / egw.de
 - [Entsorgungsbetriebe Essen](/doc/source/abfall_io.md) / ebe-essen.de
@@ -210,6 +211,7 @@ Waste collection schedules in the following formats and countries are supported.
 - [WGV Recycling GmbH](/doc/source/awido_de.md) / wgv-quarzbichl.de
 - [Wolfsburger Abfallwirtschaft und Straßenreinigung](/doc/source/was_wolfsburg_de.md) / was-wolfsburg.de
 - [WZV Kreis Segeberg](/doc/source/c_trace_de.md) / wzv.de
+- [ZAW Darmstadt-Dieburg](/doc/source/zaw_online_de.md) / zaw-online.de
 - [Zweckverband Abfallwirtschaft Saale-Orla](/doc/source/awido_de.md) / zaso-online.de
 - [Zweckverband München-Südost](/doc/source/awido_de.md) / zvmso.de
 </details>
